@@ -1,14 +1,14 @@
 # Techs
 
 ## Lang
-- [Common](lang-common.md)
-- [PHP](php.md)
-  - [Laravel](laravel.md)
-  - [[WordPress]] 
+- [[lang-common]]
+- [[php_index]]
+	- [[laravel]]
+	- [[WordPress]] 
   - [[js]]
 	- [[vue]]
 	- [[react]]
-- [HTML](html/index.md)
+- [[html_index]]
 - [Python](python.md)
 - [Rails](rails.md)
 - [C#](cs.md)
