@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "75a35037e3a43bb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c9eb86ad3ae08db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "653893bc59023238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wp/WordPress 日付時刻.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e0e7b4030c2ccee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/react.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            },
+            "group": "4b1608f1032a31b5"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "edee3e4db013b09e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c102088ae75d80d2",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "react/react.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "4b1608f1032a31b5"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "745783d6725a8a9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d445588b32320ff6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd1d67f257f06a19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "deb8fe82d8232d6e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7738e972d795bd0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f89aa6edebf78a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab7c5c04f2655d91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98ea72e6970c6da7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "react/react.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "954ae8d796d5c477",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "react/react.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47837a40befe4900",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5269a7c465c55cdb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "react/react.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false
+    }
+  },
+  "active": "5e0e7b4030c2ccee",
+  "lastOpenFiles": [
+    "react/react error.md",
+    "react/react.md",
+    "react/react 関数呼び出し.md",
+    "react/react selectタグ.md",
+    "react/react component.md",
+    "react/react phpからデータを渡す.md",
+    "react/gatsby.md",
+    "js.md",
+    "js/axios.md",
+    "js/luxon.md",
+    "index2.md",
+    "vue/vue.md",
+    "vite.md",
+    "js/ajax.md",
+    "WordPress.md",
+    "wp/WordPress Query.md",
+    "wp/WordPress 日付時刻.md",
+    "wp/WordPress プラグイン.md",
+    "wp/WordPress メニュー追加.md",
+    "wp/WordPress ディレクトリ、URL.md",
+    "mysql.md",
+    "install/composer.md",
+    "goss.md",
+    "css mediaquery.md",
+    "goss v2.md",
+    "mac command.md"
+  ]
+}

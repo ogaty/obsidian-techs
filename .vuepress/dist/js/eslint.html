@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>eslint | Vuepress Docs Boilerplate</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.1a8e0fbc.css" as="style"><link rel="preload" href="/assets/js/app.ababdbb6.js" as="script"><link rel="preload" href="/assets/js/2.7dd4676b.js" as="script"><link rel="preload" href="/assets/js/39.86befb52.js" as="script"><link rel="prefetch" href="/assets/js/10.793674a3.js"><link rel="prefetch" href="/assets/js/11.5ecb4742.js"><link rel="prefetch" href="/assets/js/12.46baf7f3.js"><link rel="prefetch" href="/assets/js/13.6046014c.js"><link rel="prefetch" href="/assets/js/14.13606966.js"><link rel="prefetch" href="/assets/js/15.d314ef5d.js"><link rel="prefetch" href="/assets/js/16.91249d1c.js"><link rel="prefetch" href="/assets/js/17.fe15ab30.js"><link rel="prefetch" href="/assets/js/18.9d66e0b6.js"><link rel="prefetch" href="/assets/js/19.fae8846b.js"><link rel="prefetch" href="/assets/js/20.31fbd86b.js"><link rel="prefetch" href="/assets/js/21.6a0f6b4e.js"><link rel="prefetch" href="/assets/js/22.fe3bec6b.js"><link rel="prefetch" href="/assets/js/23.827a01d0.js"><link rel="prefetch" href="/assets/js/24.70ccb734.js"><link rel="prefetch" href="/assets/js/25.e0596355.js"><link rel="prefetch" href="/assets/js/26.658a7a0f.js"><link rel="prefetch" href="/assets/js/27.5dd695da.js"><link rel="prefetch" href="/assets/js/28.aef032aa.js"><link rel="prefetch" href="/assets/js/29.7d6e47c6.js"><link rel="prefetch" href="/assets/js/3.3e3db88c.js"><link rel="prefetch" href="/assets/js/30.9c814bde.js"><link rel="prefetch" href="/assets/js/31.ad418e45.js"><link rel="prefetch" href="/assets/js/32.4ad6fdb5.js"><link rel="prefetch" href="/assets/js/33.3e96b8fb.js"><link rel="prefetch" href="/assets/js/34.50695385.js"><link rel="prefetch" href="/assets/js/35.b17a92b4.js"><link rel="prefetch" href="/assets/js/36.e0ef8ef3.js"><link rel="prefetch" href="/assets/js/37.1757c6f3.js"><link rel="prefetch" href="/assets/js/38.d8978687.js"><link rel="prefetch" href="/assets/js/4.a982ae88.js"><link rel="prefetch" href="/assets/js/40.8bd71c00.js"><link rel="prefetch" href="/assets/js/41.b4b06eb7.js"><link rel="prefetch" href="/assets/js/42.10281bfb.js"><link rel="prefetch" href="/assets/js/43.b5f371d7.js"><link rel="prefetch" href="/assets/js/44.e545b104.js"><link rel="prefetch" href="/assets/js/45.591c5f48.js"><link rel="prefetch" href="/assets/js/46.9402adea.js"><link rel="prefetch" href="/assets/js/47.2fd6cd36.js"><link rel="prefetch" href="/assets/js/48.94ee5be7.js"><link rel="prefetch" href="/assets/js/49.4cb97081.js"><link rel="prefetch" href="/assets/js/5.e355bd06.js"><link rel="prefetch" href="/assets/js/50.c5662d3f.js"><link rel="prefetch" href="/assets/js/51.da9b2124.js"><link rel="prefetch" href="/assets/js/52.7a879f97.js"><link rel="prefetch" href="/assets/js/53.8dd16118.js"><link rel="prefetch" href="/assets/js/54.a2d42752.js"><link rel="prefetch" href="/assets/js/55.3d03f1e8.js"><link rel="prefetch" href="/assets/js/56.2c3b019c.js"><link rel="prefetch" href="/assets/js/57.17079dfc.js"><link rel="prefetch" href="/assets/js/58.6e7f6c73.js"><link rel="prefetch" href="/assets/js/59.27407b07.js"><link rel="prefetch" href="/assets/js/6.4e13290b.js"><link rel="prefetch" href="/assets/js/60.4b8a7dfd.js"><link rel="prefetch" href="/assets/js/61.a711d566.js"><link rel="prefetch" href="/assets/js/62.486243e5.js"><link rel="prefetch" href="/assets/js/63.46e8b571.js"><link rel="prefetch" href="/assets/js/64.fa78a0b9.js"><link rel="prefetch" href="/assets/js/65.4bf62004.js"><link rel="prefetch" href="/assets/js/66.3ad384e2.js"><link rel="prefetch" href="/assets/js/67.4933f143.js"><link rel="prefetch" href="/assets/js/68.ac78830c.js"><link rel="prefetch" href="/assets/js/69.85d99d20.js"><link rel="prefetch" href="/assets/js/7.119647a9.js"><link rel="prefetch" href="/assets/js/70.19dcb7d0.js"><link rel="prefetch" href="/assets/js/71.c8e52e0e.js"><link rel="prefetch" href="/assets/js/72.b34401a2.js"><link rel="prefetch" href="/assets/js/73.8e35c1d5.js"><link rel="prefetch" href="/assets/js/74.79cc6c08.js"><link rel="prefetch" href="/assets/js/75.3de8eda4.js"><link rel="prefetch" href="/assets/js/76.821bbfe8.js"><link rel="prefetch" href="/assets/js/77.9bf83c55.js"><link rel="prefetch" href="/assets/js/78.c419ab43.js"><link rel="prefetch" href="/assets/js/79.8d7d2777.js"><link rel="prefetch" href="/assets/js/8.c603d2a8.js"><link rel="prefetch" href="/assets/js/80.588371a9.js"><link rel="prefetch" href="/assets/js/81.55036d51.js"><link rel="prefetch" href="/assets/js/82.8573d9c2.js"><link rel="prefetch" href="/assets/js/83.b94247b1.js"><link rel="prefetch" href="/assets/js/84.547067b8.js"><link rel="prefetch" href="/assets/js/85.f7d99a5c.js"><link rel="prefetch" href="/assets/js/86.72d354fb.js"><link rel="prefetch" href="/assets/js/87.b54f7e4b.js"><link rel="prefetch" href="/assets/js/9.85d3d803.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1a8e0fbc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Vuepress Docs Boilerplate</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="eslint"><a href="#eslint" class="header-anchor">#</a> eslint</h1> <div class="language- extra-class"><pre class="language-text"><code>npm init @eslint
+</code></pre></div><p>.eslintrc.json</p> <div class="language- extra-class"><pre class="language-text"><code>{
+    // [JSON]
+    //
+    // An .eslintrc starter file with all rules (set to 0) and envs (set to false) listed.
+    // Other options (although by no means comprehensive) are either set to false or else commented out.
+    //
+    // Updated on 2017-12-16.
+    //
+    // Starter file generated by ESLint Starter File Generator:
+    //     https://github.com/i-ron-y/eslint-starter-generator
+    //
+    // ESLint docs -- Configuring ESLint:      https://eslint.org/docs/user-guide/configuring
+    // ESLint docs -- List of available rules: https://eslint.org/docs/rules/
+
+
+    &quot;parserOptions&quot;: {
+
+        // &quot;ecmaVersion&quot;: 5,                       // set to 3, 5 (default), 6, 7, or 8 to specify the version of ECMAScript syntax you want to use.
+        //                                         // You can also set to 2015 (same as 6), 2016 (same as 7), or 2017 (same as 8) to use the year-based naming.
+
+        // &quot;sourceType&quot;: &quot;script&quot;,                 // set to &quot;script&quot; (default) or &quot;module&quot; if your code is in ECMAScript modules.
+
+        &quot;ecmaFeatures&quot;: {
+
+            &quot;globalReturn&quot;: false,              // allow return statements in the global scope
+            &quot;impliedStrict&quot;: false,             // enable global strict mode (if ecmaVersion is 5 or greater)
+            &quot;jsx&quot;: false,                       // enable JSX
+
+            &quot;experimentalObjectRestSpread&quot;: false   // enable support for the experimental object rest/spread properties
+            // (IMPORTANT: This is an experimental feature that may change significantly in the future.
+            // It�s recommended that you do not write rules relying on this functionality unless you are
+            // willing to incur maintenance cost when it changes.)
+
+        }
+
+    },
+
+
+    // &quot;parser&quot;: &quot;espree&quot;,                         // compatible parsers: &quot;espree&quot; (default), &quot;esprima&quot;, &quot;babel-eslint&quot;, and &quot;typescript-eslint-parser&quot; (experimental)
+
+
+    &quot;env&quot;: {
+
+        &quot;browser&quot;: false,                       // browser global variables
+        &quot;node&quot;: false,                          // Node.js global variables and Node.js scoping.
+        &quot;commonjs&quot;: false,                      // CommonJS global variables and CommonJS scoping (use this for browser-only code that uses Browserify/WebPack).
+        &quot;shared-node-browser&quot;: false,           // Globals common to both Node and Browser.
+        &quot;es6&quot;: false,                           // enable all ECMAScript 6 features except for modules (this automatically sets the ecmaVersion parser option to 6).
+        &quot;worker&quot;: false,                        // web workers global variables.
+        &quot;amd&quot;: false,                           // defines require() and define() as global variables as per the amd spec
+        &quot;mocha&quot;: false,                         // adds all of the Mocha testing global variables
+        &quot;jasmine&quot;: false,                       // adds all of the Jasmine testing global variables for version 1.3 and 2.0
+        &quot;jest&quot;: false,                          // Jest global variables.
+        &quot;phantomjs&quot;: false,                     // PhantomJS global variables
+        &quot;protractor&quot;: false,                    // Protractor global variables
+        &quot;qunit&quot;: false,                         // QUnit global variables.
+        &quot;jquery&quot;: false,                        // jQuery global variables
+        &quot;prototypejs&quot;: false,                   // Prototype.js global variables
+        &quot;shelljs&quot;: false,                       // ShellJS global variables
+        &quot;meteor&quot;: false,                        // Meteor global variables.
+        &quot;mongo&quot;: false,                         // MongoDB global variables.
+        &quot;applescript&quot;: false,                   // AppleScript global variables.
+        &quot;nashorn&quot;: false,                       // Java 8 Nashorn global variables.
+        &quot;serviceworker&quot;: false,                 // Service Worker global variables.
+        &quot;atomtest&quot;: false,                      // Atom test helper globals.
+        &quot;embertest&quot;: false,                     // Ember test helper globals.
+        &quot;webextensions&quot;: false,                 // WebExtensions globals.
+        &quot;greasemonkey&quot;: false                   // GreaseMonkey globals.
+
+    },
+
+
+    &quot;globals&quot;: {
+
+        // e.g. &quot;angular&quot;: true
+
+    },
+
+
+    &quot;plugins&quot;: [
+
+        // e.g. &quot;react&quot; (must run `npm install eslint-plugin-react` first)
+
+    ],
+
+
+    &quot;extends&quot;: [
+
+        // &quot;eslint:recommended&quot;                    // enables a subset of core rules that report common problems, which have a check mark on the rules page
+        // &quot;eslint:all&quot;                            // enable all core rules in the currently installed version of ESLint
+
+    ],
+
+
+    &quot;rules&quot;: {
+
+        // Usage:
+        //    &quot;off&quot; or 0 - turn the rule off
+        //    &quot;warn&quot; or 1 - turn the rule on as a warning (doesn�t affect exit code)
+        //    &quot;error&quot; or 2 - turn the rule on as an error (exit code is 1 when triggered)
+        //
+        //    If a rule has additional options, you can specify them using array literal syntax, such as:
+        //        &quot;quotes&quot;: [2, &quot;double&quot;]
+
+
+        //////// Possible Errors ////////
+
+        &quot;for-direction&quot;: 0,                     // enforce �for� loop update clause moving the counter in the right direction.
+        &quot;getter-return&quot;: 0,                     // enforce return statements in getters
+        &quot;no-await-in-loop&quot;: 0,                  // disallow await inside of loops
+        &quot;no-compare-neg-zero&quot;: 0,               // disallow comparing against -0
+        &quot;no-cond-assign&quot;: 0,                    // disallow assignment operators in conditional expressions
+        &quot;no-console&quot;: 0,                        // disallow the use of console
+        &quot;no-constant-condition&quot;: 0,             // disallow constant expressions in conditions
+        &quot;no-control-regex&quot;: 0,                  // disallow control characters in regular expressions
+        &quot;no-debugger&quot;: 0,                       // disallow the use of debugger
+        &quot;no-dupe-args&quot;: 0,                      // disallow duplicate arguments in function definitions
+        &quot;no-dupe-keys&quot;: 0,                      // disallow duplicate keys in object literals
+        &quot;no-duplicate-case&quot;: 0,                 // disallow duplicate case labels
+        &quot;no-empty&quot;: 0,                          // disallow empty block statements
+        &quot;no-empty-character-class&quot;: 0,          // disallow empty character classes in regular expressions
+        &quot;no-ex-assign&quot;: 0,                      // disallow reassigning exceptions in catch clauses
+        &quot;no-extra-boolean-cast&quot;: 0,             // disallow unnecessary boolean casts
+        &quot;no-extra-parens&quot;: 0,                   // disallow unnecessary parentheses
+        &quot;no-extra-semi&quot;: 0,                     // disallow unnecessary semicolons
+        &quot;no-func-assign&quot;: 0,                    // disallow reassigning function declarations
+        &quot;no-inner-declarations&quot;: 0,             // disallow variable or function declarations in nested blocks
+        &quot;no-invalid-regexp&quot;: 0,                 // disallow invalid regular expression strings in RegExp constructors
+        &quot;no-irregular-whitespace&quot;: 0,           // disallow irregular whitespace outside of strings and comments
+        &quot;no-obj-calls&quot;: 0,                      // disallow calling global object properties as functions
+        &quot;no-prototype-builtins&quot;: 0,             // disallow calling some Object.prototype methods directly on objects
+        &quot;no-regex-spaces&quot;: 0,                   // disallow multiple spaces in regular expressions
+        &quot;no-sparse-arrays&quot;: 0,                  // disallow sparse arrays
+        &quot;no-template-curly-in-string&quot;: 0,       // disallow template literal placeholder syntax in regular strings
+        &quot;no-unexpected-multiline&quot;: 0,           // disallow confusing multiline expressions
+        &quot;no-unreachable&quot;: 0,                    // disallow unreachable code after return, throw, continue, and break statements
+        &quot;no-unsafe-finally&quot;: 0,                 // disallow control flow statements in finally blocks
+        &quot;no-unsafe-negation&quot;: 0,                // disallow negating the left operand of relational operators
+        &quot;use-isnan&quot;: 0,                         // require calls to isNaN() when checking for NaN
+        &quot;valid-jsdoc&quot;: 0,                       // enforce valid JSDoc comments
+        &quot;valid-typeof&quot;: 0,                      // enforce comparing typeof expressions against valid strings
+
+
+        //////// Best Practices ////////
+
+        &quot;accessor-pairs&quot;: 0,                    // enforce getter and setter pairs in objects
+        &quot;array-callback-return&quot;: 0,             // enforce return statements in callbacks of array methods
+        &quot;block-scoped-var&quot;: 0,                  // enforce the use of variables within the scope they are defined
+        &quot;class-methods-use-this&quot;: 0,            // enforce that class methods utilize this
+        &quot;complexity&quot;: 0,                        // enforce a maximum cyclomatic complexity allowed in a program
+        &quot;consistent-return&quot;: 0,                 // require return statements to either always or never specify values
+        &quot;curly&quot;: 0,                             // enforce consistent brace style for all control statements
+        &quot;default-case&quot;: 0,                      // require default cases in switch statements
+        &quot;dot-location&quot;: 0,                      // enforce consistent newlines before and after dots
+        &quot;dot-notation&quot;: 0,                      // enforce dot notation whenever possible
+        &quot;eqeqeq&quot;: 0,                            // require the use of === and !==
+        &quot;guard-for-in&quot;: 0,                      // require for-in loops to include an if statement
+        &quot;no-alert&quot;: 0,                          // disallow the use of alert, confirm, and prompt
+        &quot;no-caller&quot;: 0,                         // disallow the use of arguments.caller or arguments.callee
+        &quot;no-case-declarations&quot;: 0,              // disallow lexical declarations in case clauses
+        &quot;no-div-regex&quot;: 0,                      // disallow division operators explicitly at the beginning of regular expressions
+        &quot;no-else-return&quot;: 0,                    // disallow else blocks after return statements in if statements
+        &quot;no-empty-function&quot;: 0,                 // disallow empty functions
+        &quot;no-empty-pattern&quot;: 0,                  // disallow empty destructuring patterns
+        &quot;no-eq-null&quot;: 0,                        // disallow null comparisons without type-checking operators
+        &quot;no-eval&quot;: 0,                           // disallow the use of eval()
+        &quot;no-extend-native&quot;: 0,                  // disallow extending native types
+        &quot;no-extra-bind&quot;: 0,                     // disallow unnecessary calls to .bind()
+        &quot;no-extra-label&quot;: 0,                    // disallow unnecessary labels
+        &quot;no-fallthrough&quot;: 0,                    // disallow fallthrough of case statements
+        &quot;no-floating-decimal&quot;: 0,               // disallow leading or trailing decimal points in numeric literals
+        &quot;no-global-assign&quot;: 0,                  // disallow assignments to native objects or read-only global variables
+        &quot;no-implicit-coercion&quot;: 0,              // disallow shorthand type conversions
+        &quot;no-implicit-globals&quot;: 0,               // disallow variable and function declarations in the global scope
+        &quot;no-implied-eval&quot;: 0,                   // disallow the use of eval()-like methods
+        &quot;no-invalid-this&quot;: 0,                   // disallow this keywords outside of classes or class-like objects
+        &quot;no-iterator&quot;: 0,                       // disallow the use of the __iterator__ property
+        &quot;no-labels&quot;: 0,                         // disallow labeled statements
+        &quot;no-lone-blocks&quot;: 0,                    // disallow unnecessary nested blocks
+        &quot;no-loop-func&quot;: 0,                      // disallow function declarations and expressions inside loop statements
+        &quot;no-magic-numbers&quot;: 0,                  // disallow magic numbers
+        &quot;no-multi-spaces&quot;: 0,                   // disallow multiple spaces
+        &quot;no-multi-str&quot;: 0,                      // disallow multiline strings
+        &quot;no-new&quot;: 0,                            // disallow new operators outside of assignments or comparisons
+        &quot;no-new-func&quot;: 0,                       // disallow new operators with the Function object
+        &quot;no-new-wrappers&quot;: 0,                   // disallow new operators with the String, Number, and Boolean objects
+        &quot;no-octal&quot;: 0,                          // disallow octal literals
+        &quot;no-octal-escape&quot;: 0,                   // disallow octal escape sequences in string literals
+        &quot;no-param-reassign&quot;: 0,                 // disallow reassigning function parameters
+        &quot;no-proto&quot;: 0,                          // disallow the use of the __proto__ property
+        &quot;no-redeclare&quot;: 0,                      // disallow variable redeclaration
+        &quot;no-restricted-properties&quot;: 0,          // disallow certain properties on certain objects
+        &quot;no-return-assign&quot;: 0,                  // disallow assignment operators in return statements
+        &quot;no-return-await&quot;: 0,                   // disallow unnecessary return await
+        &quot;no-script-url&quot;: 0,                     // disallow javascript: urls
+        &quot;no-self-assign&quot;: 0,                    // disallow assignments where both sides are exactly the same
+        &quot;no-self-compare&quot;: 0,                   // disallow comparisons where both sides are exactly the same
+        &quot;no-sequences&quot;: 0,                      // disallow comma operators
+        &quot;no-throw-literal&quot;: 0,                  // disallow throwing literals as exceptions
+        &quot;no-unmodified-loop-condition&quot;: 0,      // disallow unmodified loop conditions
+        &quot;no-unused-expressions&quot;: 0,             // disallow unused expressions
+        &quot;no-unused-labels&quot;: 0,                  // disallow unused labels
+        &quot;no-useless-call&quot;: 0,                   // disallow unnecessary calls to .call() and .apply()
+        &quot;no-useless-concat&quot;: 0,                 // disallow unnecessary concatenation of literals or template literals
+        &quot;no-useless-escape&quot;: 0,                 // disallow unnecessary escape characters
+        &quot;no-useless-return&quot;: 0,                 // disallow redundant return statements
+        &quot;no-void&quot;: 0,                           // disallow void operators
+        &quot;no-warning-comments&quot;: 0,               // disallow specified warning terms in comments
+        &quot;no-with&quot;: 0,                           // disallow with statements
+        &quot;prefer-promise-reject-errors&quot;: 0,      // require using Error objects as Promise rejection reasons
+        &quot;radix&quot;: 0,                             // enforce the consistent use of the radix argument when using parseInt()
+        &quot;require-await&quot;: 0,                     // disallow async functions which have no await expression
+        &quot;vars-on-top&quot;: 0,                       // require var declarations be placed at the top of their containing scope
+        &quot;wrap-iife&quot;: 0,                         // require parentheses around immediate function invocations
+        &quot;yoda&quot;: 0,                              // require or disallow �Yoda� conditions
+
+
+        //////// Strict Mode ////////
+
+        &quot;strict&quot;: 0,                            // require or disallow strict mode directives
+
+
+        //////// Variables ////////
+
+        &quot;init-declarations&quot;: 0,                 // require or disallow initialization in variable declarations
+        &quot;no-catch-shadow&quot;: 0,                   // disallow catch clause parameters from shadowing variables in the outer scope
+        &quot;no-delete-var&quot;: 0,                     // disallow deleting variables
+        &quot;no-label-var&quot;: 0,                      // disallow labels that share a name with a variable
+        &quot;no-restricted-globals&quot;: 0,             // disallow specified global variables
+        &quot;no-shadow&quot;: 0,                         // disallow variable declarations from shadowing variables declared in the outer scope
+        &quot;no-shadow-restricted-names&quot;: 0,        // disallow identifiers from shadowing restricted names
+        &quot;no-undef&quot;: 0,                          // disallow the use of undeclared variables unless mentioned in /*global */ comments
+        &quot;no-undef-init&quot;: 0,                     // disallow initializing variables to undefined
+        &quot;no-undefined&quot;: 0,                      // disallow the use of undefined as an identifier
+        &quot;no-unused-vars&quot;: 0,                    // disallow unused variables
+        &quot;no-use-before-define&quot;: 0,              // disallow the use of variables before they are defined
+
+
+        //////// Node.js and CommonJS ////////
+
+        &quot;callback-return&quot;: 0,                   // require return statements after callbacks
+        &quot;global-require&quot;: 0,                    // require require() calls to be placed at top-level module scope
+        &quot;handle-callback-err&quot;: 0,               // require error handling in callbacks
+        &quot;no-buffer-constructor&quot;: 0,             // disallow use of the Buffer() constructor
+        &quot;no-mixed-requires&quot;: 0,                 // disallow require calls to be mixed with regular variable declarations
+        &quot;no-new-require&quot;: 0,                    // disallow new operators with calls to require
+        &quot;no-path-concat&quot;: 0,                    // disallow string concatenation with __dirname and __filename
+        &quot;no-process-env&quot;: 0,                    // disallow the use of process.env
+        &quot;no-process-exit&quot;: 0,                   // disallow the use of process.exit()
+        &quot;no-restricted-modules&quot;: 0,             // disallow specified modules when loaded by require
+        &quot;no-sync&quot;: 0,                           // disallow synchronous methods
+
+
+        //////// Stylistic Issues ////////
+
+        &quot;array-bracket-newline&quot;: 0,             // enforce linebreaks after opening and before closing array brackets
+        &quot;array-bracket-spacing&quot;: 0,             // enforce consistent spacing inside array brackets
+        &quot;array-element-newline&quot;: 0,             // enforce line breaks after each array element
+        &quot;block-spacing&quot;: 0,                     // disallow or enforce spaces inside of blocks after opening block and before closing block
+        &quot;brace-style&quot;: 0,                       // enforce consistent brace style for blocks
+        &quot;camelcase&quot;: 0,                         // enforce camelcase naming convention
+        &quot;capitalized-comments&quot;: 0,              // enforce or disallow capitalization of the first letter of a comment
+        &quot;comma-dangle&quot;: 0,                      // require or disallow trailing commas
+        &quot;comma-spacing&quot;: 0,                     // enforce consistent spacing before and after commas
+        &quot;comma-style&quot;: 0,                       // enforce consistent comma style
+        &quot;computed-property-spacing&quot;: 0,         // enforce consistent spacing inside computed property brackets
+        &quot;consistent-this&quot;: 0,                   // enforce consistent naming when capturing the current execution context
+        &quot;eol-last&quot;: 0,                          // require or disallow newline at the end of files
+        &quot;func-call-spacing&quot;: 0,                 // require or disallow spacing between function identifiers and their invocations
+        &quot;func-name-matching&quot;: 0,                // require function names to match the name of the variable or property to which they are assigned
+        &quot;func-names&quot;: 0,                        // require or disallow named function expressions
+        &quot;func-style&quot;: 0,                        // enforce the consistent use of either function declarations or expressions
+        &quot;function-paren-newline&quot;: 0,            // enforce consistent line breaks inside function parentheses
+        &quot;id-blacklist&quot;: 0,                      // disallow specified identifiers
+        &quot;id-length&quot;: 0,                         // enforce minimum and maximum identifier lengths
+        &quot;id-match&quot;: 0,                          // require identifiers to match a specified regular expression
+        &quot;implicit-arrow-linebreak&quot;: 0,          // enforce the location of arrow function bodies
+        &quot;indent&quot;: 0,                            // enforce consistent indentation
+        &quot;jsx-quotes&quot;: 0,                        // enforce the consistent use of either double or single quotes in JSX attributes
+        &quot;key-spacing&quot;: 0,                       // enforce consistent spacing between keys and values in object literal properties
+        &quot;keyword-spacing&quot;: 0,                   // enforce consistent spacing before and after keywords
+        &quot;line-comment-position&quot;: 0,             // enforce position of line comments
+        &quot;linebreak-style&quot;: 0,                   // enforce consistent linebreak style
+        &quot;lines-around-comment&quot;: 0,              // require empty lines around comments
+        &quot;lines-between-class-members&quot;: 0,       // require or disallow an empty line between class members
+        &quot;max-depth&quot;: 0,                         // enforce a maximum depth that blocks can be nested
+        &quot;max-len&quot;: 0,                           // enforce a maximum line length
+        &quot;max-lines&quot;: 0,                         // enforce a maximum number of lines per file
+        &quot;max-nested-callbacks&quot;: 0,              // enforce a maximum depth that callbacks can be nested
+        &quot;max-params&quot;: 0,                        // enforce a maximum number of parameters in function definitions
+        &quot;max-statements&quot;: 0,                    // enforce a maximum number of statements allowed in function blocks
+        &quot;max-statements-per-line&quot;: 0,           // enforce a maximum number of statements allowed per line
+        &quot;multiline-comment-style&quot;: 0,           // enforce a particular style for multiline comments
+        &quot;multiline-ternary&quot;: 0,                 // enforce newlines between operands of ternary expressions
+        &quot;new-cap&quot;: 0,                           // require constructor names to begin with a capital letter
+        &quot;new-parens&quot;: 0,                        // require parentheses when invoking a constructor with no arguments
+        &quot;newline-per-chained-call&quot;: 0,          // require a newline after each call in a method chain
+        &quot;no-array-constructor&quot;: 0,              // disallow Array constructors
+        &quot;no-bitwise&quot;: 0,                        // disallow bitwise operators
+        &quot;no-continue&quot;: 0,                       // disallow continue statements
+        &quot;no-inline-comments&quot;: 0,                // disallow inline comments after code
+        &quot;no-lonely-if&quot;: 0,                      // disallow if statements as the only statement in else blocks
+        &quot;no-mixed-operators&quot;: 0,                // disallow mixed binary operators
+        &quot;no-mixed-spaces-and-tabs&quot;: 0,          // disallow mixed spaces and tabs for indentation
+        &quot;no-multi-assign&quot;: 0,                   // disallow use of chained assignment expressions
+        &quot;no-multiple-empty-lines&quot;: 0,           // disallow multiple empty lines
+        &quot;no-negated-condition&quot;: 0,              // disallow negated conditions
+        &quot;no-nested-ternary&quot;: 0,                 // disallow nested ternary expressions
+        &quot;no-new-object&quot;: 0,                     // disallow Object constructors
+        &quot;no-plusplus&quot;: 0,                       // disallow the unary operators ++ and --
+        &quot;no-restricted-syntax&quot;: 0,              // disallow specified syntax
+        &quot;no-tabs&quot;: 0,                           // disallow all tabs
+        &quot;no-ternary&quot;: 0,                        // disallow ternary operators
+        &quot;no-trailing-spaces&quot;: 0,                // disallow trailing whitespace at the end of lines
+        &quot;no-underscore-dangle&quot;: 0,              // disallow dangling underscores in identifiers
+        &quot;no-unneeded-ternary&quot;: 0,               // disallow ternary operators when simpler alternatives exist
+        &quot;no-whitespace-before-property&quot;: 0,     // disallow whitespace before properties
+        &quot;nonblock-statement-body-position&quot;: 0,  // enforce the location of single-line statements
+        &quot;object-curly-newline&quot;: 0,              // enforce consistent line breaks inside braces
+        &quot;object-curly-spacing&quot;: 0,              // enforce consistent spacing inside braces
+        &quot;object-property-newline&quot;: 0,           // enforce placing object properties on separate lines
+        &quot;one-var&quot;: 0,                           // enforce variables to be declared either together or separately in functions
+        &quot;one-var-declaration-per-line&quot;: 0,      // require or disallow newlines around variable declarations
+        &quot;operator-assignment&quot;: 0,               // require or disallow assignment operator shorthand where possible
+        &quot;operator-linebreak&quot;: 0,                // enforce consistent linebreak style for operators
+        &quot;padded-blocks&quot;: 0,                     // require or disallow padding within blocks
+        &quot;padding-line-between-statements&quot;: 0,   // require or disallow padding lines between statements
+        &quot;quote-props&quot;: 0,                       // require quotes around object literal property names
+        &quot;quotes&quot;: 0,                            // enforce the consistent use of either backticks, double, or single quotes
+        &quot;require-jsdoc&quot;: 0,                     // require JSDoc comments
+        &quot;semi&quot;: 0,                              // require or disallow semicolons instead of ASI
+        &quot;semi-spacing&quot;: 0,                      // enforce consistent spacing before and after semicolons
+        &quot;semi-style&quot;: 0,                        // enforce location of semicolons
+        &quot;sort-keys&quot;: 0,                         // require object keys to be sorted
+        &quot;sort-vars&quot;: 0,                         // require variables within the same declaration block to be sorted
+        &quot;space-before-blocks&quot;: 0,               // enforce consistent spacing before blocks
+        &quot;space-before-function-paren&quot;: 0,       // enforce consistent spacing before function definition opening parenthesis
+        &quot;space-in-parens&quot;: 0,                   // enforce consistent spacing inside parentheses
+        &quot;space-infix-ops&quot;: 0,                   // require spacing around infix operators
+        &quot;space-unary-ops&quot;: 0,                   // enforce consistent spacing before or after unary operators
+        &quot;spaced-comment&quot;: 0,                    // enforce consistent spacing after the // or /* in a comment
+        &quot;switch-colon-spacing&quot;: 0,              // enforce spacing around colons of switch statements
+        &quot;template-tag-spacing&quot;: 0,              // require or disallow spacing between template tags and their literals
+        &quot;unicode-bom&quot;: 0,                       // require or disallow Unicode byte order mark (BOM)
+        &quot;wrap-regex&quot;: 0,                        // require parenthesis around regex literals
+
+
+        //////// ECMAScript 6 ////////
+
+        &quot;arrow-body-style&quot;: 0,                  // require braces around arrow function bodies
+        &quot;arrow-parens&quot;: 0,                      // require parentheses around arrow function arguments
+        &quot;arrow-spacing&quot;: 0,                     // enforce consistent spacing before and after the arrow in arrow functions
+        &quot;constructor-super&quot;: 0,                 // require super() calls in constructors
+        &quot;generator-star-spacing&quot;: 0,            // enforce consistent spacing around * operators in generator functions
+        &quot;no-class-assign&quot;: 0,                   // disallow reassigning class members
+        &quot;no-confusing-arrow&quot;: 0,                // disallow arrow functions where they could be confused with comparisons
+        &quot;no-const-assign&quot;: 0,                   // disallow reassigning const variables
+        &quot;no-dupe-class-members&quot;: 0,             // disallow duplicate class members
+        &quot;no-duplicate-imports&quot;: 0,              // disallow duplicate module imports
+        &quot;no-new-symbol&quot;: 0,                     // disallow new operators with the Symbol object
+        &quot;no-restricted-imports&quot;: 0,             // disallow specified modules when loaded by import
+        &quot;no-this-before-super&quot;: 0,              // disallow this/super before calling super() in constructors
+        &quot;no-useless-computed-key&quot;: 0,           // disallow unnecessary computed property keys in object literals
+        &quot;no-useless-constructor&quot;: 0,            // disallow unnecessary constructors
+        &quot;no-useless-rename&quot;: 0,                 // disallow renaming import, export, and destructured assignments to the same name
+        &quot;no-var&quot;: 0,                            // require let or const instead of var
+        &quot;object-shorthand&quot;: 0,                  // require or disallow method and property shorthand syntax for object literals
+        &quot;prefer-arrow-callback&quot;: 0,             // require using arrow functions for callbacks
+        &quot;prefer-const&quot;: 0,                      // require const declarations for variables that are never reassigned after declared
+        &quot;prefer-destructuring&quot;: 0,              // require destructuring from arrays and/or objects
+        &quot;prefer-numeric-literals&quot;: 0,           // disallow parseInt() and Number.parseInt() in favor of binary, octal, and hexadecimal literals
+        &quot;prefer-rest-params&quot;: 0,                // require rest parameters instead of arguments
+        &quot;prefer-spread&quot;: 0,                     // require spread operators instead of .apply()
+        &quot;prefer-template&quot;: 0,                   // require template literals instead of string concatenation
+        &quot;require-yield&quot;: 0,                     // require generator functions to contain yield
+        &quot;rest-spread-spacing&quot;: 0,               // enforce spacing between rest and spread operators and their expressions
+        &quot;sort-imports&quot;: 0,                      // enforce sorted import declarations within modules
+        &quot;symbol-description&quot;: 0,                // require symbol descriptions
+        &quot;template-curly-spacing&quot;: 0,            // require or disallow spacing around embedded expressions of template strings
+        &quot;yield-star-spacing&quot;: 0                 // require or disallow spacing around the * in yield* expressions
+
+
+    }
+
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ababdbb6.js" defer></script><script src="/assets/js/2.7dd4676b.js" defer></script><script src="/assets/js/39.86befb52.js" defer></script>
+  </body>
+</html>
