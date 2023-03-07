@@ -2,13 +2,14 @@
 
 ## Lang
 - [[lang-common]]
-- [[php_index]]
+- [[php_index|php]]
 	- [[laravel]]
 	- [[WordPress]] 
   - [[js]]
 	- [[vue]]
 	- [[react]]
-- [[html_index]]
+- [[html_index|html]]
+- [[tools index|tools]]
 - [Python](python.md)
 - [Rails](rails.md)
 - [C#](cs.md)
