@@ -1,5 +1,23 @@
 # phpunit
 
+
+## ファイル名
+
+Example2Test.phpはOK 
+ExampleTest2.phpはNG
+
+## 関数名
+testが頭についていれば良い、@test入れれば確か大丈夫(docCommentで囲むこと)
+極端な話こんなのでもいい
+```php
+    public function testログインできること() {
+    }
+```
+
+個人的にはいちいちDBを消して入れてはしないでシナリオテストにしたほうが好き
+setUpBeforeClassとtearDownAfterClassね
+
+# xml
 ```xml
 <phpunit colors="true"
          verbose="true"
@@ -12,13 +30,17 @@
 </phpunit>
 ```
 
-# status
+
+以下は[[laravel|Laravel]]用testComponentの拡張
+## status
+
 ```php
     $response = $this->get('/login');
     $response->assertStatus(200);
 ```
 
-# login
+## login
+
 ```php
     $response = $this->post(route('login'), 
     [
@@ -28,11 +50,14 @@
     $response->assertAuthenticated();
 ```
 
-# tag,text
+## tag,text
+
 ```php
+// 第2引数はエスケープの有無
     $response->assertSee('<h1>ページタイトル</h1>', false);
     $response->assertSeeText('ようこそ');
     
 ```
 
 
+[[codeception]]

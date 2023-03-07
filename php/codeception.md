@@ -1,7 +1,7 @@
 # codeception
 
 Laravel5.1もこんな感じだったような  
-5.3から大きく変わった
+Laravel Duskに移行した5.3あたりから大きく変わった
 
 ## install
 ```
@@ -43,3 +43,4 @@ modules:
 php vendor/bin/codecept run tests
 ```
 
+[[phpunit]]

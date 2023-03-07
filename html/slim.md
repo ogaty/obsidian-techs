@@ -1,4 +1,5 @@
 # slim
+Rails以外で使わない？
 ```slim
 - if current_user.nil?
   li 新規登録

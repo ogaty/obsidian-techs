@@ -1,0 +1,6 @@
+- cascadia
+	- https://github.com/microsoft/cascadia-code/releases
+- ricty diminished
+	- https://rictyfonts.github.io/diminished
+- myrica
+	- https://myrica.estable.jp/

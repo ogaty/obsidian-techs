@@ -1,10 +1,13 @@
 # html
 
 ## snippet
-- [県](pref.md)
+- [県](pref_html.md)
 
 ## template
-- [ejs](ejs.md)
-- [pug](pug.md)
-- [liquid](liquid.md)
-- [slim](slim.md)
+- [[ejs]]
+- [[pug]]
+- [[liquid]]
+- [[slim]]
+- [[twig]]
+- [[smarty]]
+- 

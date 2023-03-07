@@ -6,7 +6,7 @@
 場合によってはai入稿とかもあるし、アセット切り出しとかめっちゃ便利
 
 ## CMYK変換
-illustrator
+### illustrator
 ［ファイル］→［ドキュメントのカラーモード］→［CMYKカラー］
 
 ### Affinity Photo
@@ -16,15 +16,15 @@ illustrator
 ファイルメニューのドキュメント設定から
 
 ## 画像サイズ
-Affinity Designer
+### Affinity Designer
 ファイルメニューのドキュメント設定から
 
 ## キャンバスサイズ
-illustrator、Affinity Designer
+### illustrator、Affinity Designer
 そもそもキャンバスという概念が違う
 アートボードで管理
 
 ## アセットの書き出し
-「アセットの書き出し」ウィンドウを表示
+### 「アセットの書き出し」ウィンドウを表示
 必要な部分を選択してドラッグ
 書き出しボタン

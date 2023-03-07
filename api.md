@@ -1,7 +1,7 @@
 # api
 
 ## openAPI / swagger
-[stoplight](tools/stoplight.md)
+[[stoplight]]
 
 ## restAPI
-[postman](tools/postman.md)
+[[postman]]
