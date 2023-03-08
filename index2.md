@@ -1,5 +1,6 @@
 # Techs
 
+## quick link
 ## Lang
 - [[lang-common]]
 - [[php_index|php]]
@@ -23,13 +24,10 @@
 - [[mysql]]
 - [[vscode]]
 - [[intellij]]
-- [[stoplight]]
 
 
 ## Shell
 -  [[linux|Linux / Bash]]
-- [[nodenv]]
-- [[homebrew]]
 - [[composer]]
 
 ## Design / Media
