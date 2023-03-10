@@ -1,3 +1,11 @@
+## スクリーンショット
+cmd + shift(縦２つ) + 4
+
+
+## 隠しファイル表示
+cmd + shift(縦２つ) + .
+
+## m1macでdocker
 platform: linux/x86_64をつける
 
 ```

@@ -1,3 +1,5 @@
+[[laravel_storage]]
+
 ```
     public static function getS3Client()
     {

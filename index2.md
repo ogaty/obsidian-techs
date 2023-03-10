@@ -4,7 +4,7 @@
 ## Lang
 - [[lang-common]]
 - [[php_index|php]]
-	- [[laravel]]
+	- [[laravel_index]]
 	- [[wp_index]] 
 	- [[phpunit]]
   - [[js]]
@@ -13,7 +13,7 @@
 - [[html_index|html]]
 - [[tools index|tools]]
 - [[python]]
-- [[rails]]
+- [[rails_index]]
 - [[cs_index|C#]]
 - [[api]]
 	- [[swagger]]
@@ -36,4 +36,4 @@
 - [[font]]
 
 # others
-[[store|ストア申請]]
+[[app_store|ストア申請]]

@@ -2,5 +2,7 @@
   "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
   "obsidian-outliner",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "metaedit",
+  "obsidian-plantuml"
 ]

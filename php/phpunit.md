@@ -5,6 +5,7 @@
 
 Example2Test.phpはOK 
 ExampleTest2.phpはNG
+phpunit.xmlにsuffitというのがあるからそれに従って
 
 ## 関数名
 testが頭についていれば良い、@test入れれば確か大丈夫(docCommentで囲むこと)
@@ -31,7 +32,8 @@ setUpBeforeClassとtearDownAfterClassね
 ```
 
 
-以下は[[laravel|Laravel]]用testComponentの拡張
+以下は[[laravel_index|Laravel]]用testComponentの拡張
+laravel側へ別ページを作る
 ## status
 
 ```php
@@ -58,6 +60,10 @@ setUpBeforeClassとtearDownAfterClassね
     $response->assertSeeText('ようこそ');
     
 ```
+
+
+## file
+UploadedFile::fakeってのでできる
 
 
 [[codeception]]
