@@ -3,3 +3,5 @@ https://stripe.com/docs/js
 https://qiita.com/y_toku/items/7e51ef7e69d7cbbfb3ca
 https://stripe-payments-demo.appspot.com/
 
+テストカードは
+4242 4242 4242 4242

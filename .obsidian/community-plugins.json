@@ -4,5 +4,7 @@
   "obsidian-outliner",
   "obsidian-icon-folder",
   "metaedit",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "make-md",
+  "obsidian-relative-line-numbers"
 ]

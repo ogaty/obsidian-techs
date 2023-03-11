@@ -1,3 +1,4 @@
+[[laravel_index]]
 # Auth
 
 Laravelのバージョンによって色々変わってわけわからなくなってきた

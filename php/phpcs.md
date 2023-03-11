@@ -1,4 +1,11 @@
 # phpcs
+[[composer]]
+
+## インストール
+```
+composer require squizlabs/php_codesniffer
+```
+
 
 Genericはエラーになりすぎること多い、Squizも絞ったほうが良い
 

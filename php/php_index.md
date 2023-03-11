@@ -12,3 +12,6 @@
 - [[phpmd]]
 - [[phpstan]]
 
+## misc
+- [[composer]]
+- 

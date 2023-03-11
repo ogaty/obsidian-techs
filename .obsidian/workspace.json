@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cff5830869d28694",
+            "id": "d13394e452e0e5ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/dependenciesとdevDependencyの違い.md",
+                "file": "install/composer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,8 +65,17 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "7da4a5d8856017f3",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js/dependenciesとdevDependencyの違い.md",
+                "file": "install/composer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js/dependenciesとdevDependencyの違い.md",
+                "file": "install/composer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "js/dependenciesとdevDependencyの違い.md"
+                "file": "install/composer.md"
               }
             }
           },
@@ -157,39 +166,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd1d67f257f06a19",
+  "active": "d13394e452e0e5ce",
   "lastOpenFiles": [
-    "lang-common.md",
-    "lang.md",
-    "database/dynamodb.md",
-    "database/mysql.md",
-    "database/mysqldump.md",
-    "laravel/laravel_index.md",
-    "database",
-    "コマンド/ssl-keygen.md",
-    "コマンド/tcpdump.md",
-    "コマンド/jq.md",
-    "laravel/laravel_csv.md",
-    "mac.md",
-    "js/nodenv.md",
-    "js/npmrc.md",
-    "コマンド/openssl.md",
-    "plantUML.md",
-    "tools/sequel.md",
-    "コマンド/brew.md",
-    "ruby_rails/carrierwave.md",
-    "cs/linq.md",
-    "コマンド",
-    "tools/tools index.md",
-    "ruby_rails/kaminari.md",
-    "editor",
+    "php/phpcs.md",
+    "install/composer.md",
     "index.md",
-    "api/guzzle.md",
-    "インフラ/goss.md",
-    "インフラ/ansible.md",
-    "ecr_ecs.md",
-    "インフラ",
-    "ruby_rails",
-    "api"
+    "personal/chrome拡張.md",
+    "laravel/laravel_auth.md",
+    "install/nodenv.md",
+    "personal/shortcut.md",
+    "aaa.md",
+    "ec/gmopg.md",
+    "Context",
+    "auth/oauth.md",
+    "ci_cd/github_actions.md",
+    "auth",
+    "ci_cd/travisCI.md",
+    "ci_cd/circleCI.md",
+    "ci_cd/github_pages.md",
+    "ci_cd/netlify.md",
+    "python/pip.md",
+    "php/php_index.md",
+    "ci_cd",
+    "js_framework/react.md",
+    "js_framework/gatsby.md",
+    "common/lang-common.md",
+    "common/lang_index.md",
+    "python/python_index.md",
+    "misc/app_store.md",
+    "python",
+    "misc",
+    "database/sqlite.md",
+    "personal",
+    "ec/stripe.md",
+    "ec",
+    "aws/ecr_ecs.md",
+    "aws",
+    "common",
+    "design"
   ]
 }
